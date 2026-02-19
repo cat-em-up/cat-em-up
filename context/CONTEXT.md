@@ -1,5 +1,8 @@
 # Cat ’Em Up — Project Context
 
+**Doc ID:** CATEMUP-CONTEXT  
+**Version:** 0.0.3
+
 ## Project Identity
 
 Title: Cat ’Em Up  
@@ -127,6 +130,70 @@ createGame(config, seed?)
 step(game, inputFrame, dt) => { snapshot, events }
 
 Rendering layer must never contain gameplay logic.
+
+---
+
+## Documentation Structure
+
+The project documentation is intentionally separated from internal context memory.
+
+Internal memory files:
+- context/STATUS.md
+- context/CONTEXT.md
+- context/CHARACTERS.md
+
+Production documentation lives in the `docs/` directory and follows a numeric structure inspired by classic BASIC line numbering.
+
+The numbering scheme:
+
+- Uses three digits (010, 020, 030…)
+- Groups related topics within the same decade range
+- Allows insertion of new documents without renaming existing ones
+
+Current structure:
+
+- 00_INDEX.md — Documentation index
+- 010_OVERVIEW.md — Project summary and goals
+- 020_ARCHITECTURE.md — System architecture and simulation model
+
+Gameplay systems:
+- 030_INPUT.md — Input model and action mapping
+- 031_COMBAT.md — Combat rules and combo logic
+- 032_MOVEMENT.md — Movement, jump and dodge mechanics
+
+Level system:
+- 040_LEVEL_FORMAT.md — Semantic level definition
+- 041_GEOMETRY.md — Stripes, volumes and collision model
+
+Clients:
+- 050_CLIENTS.md — Rendering clients
+- 051_AUDIO.md — Audio system
+
+Process:
+- 060_WORKFLOW.md — Development rules
+- 070_DECISIONS.md — Architectural decision log
+
+---
+
+## Documentation Template
+
+Every file inside `docs/` must follow this structure:
+
+```md
+<a id="top"></a>
+
+# Title here
+
+← [Back to Index](00_INDEX.md)
+
+---
+
+... content here ...
+
+---
+
+↑ [Back to top](#top)
+```
 
 ---
 

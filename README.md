@@ -1,11 +1,11 @@
-# CAT ’EM UP!
+# Cat ’Em Up
 
 <p align="center">
-  <img src="./cat-em-up-logo.png" width="400" />
+  <img src="./concept/logo.png" width="400" />
 </p>
 
 <p align="center">
-  <strong>Insert Coin. Break Bones. Claws Out.</strong>
+  <strong>Coin In. Claws Out.</strong>
 </p>
 
 ---
@@ -27,23 +27,32 @@ Just neon, impact and arcade intensity.
 - 80s neon aesthetic
 - Aggressive disco-rock / synthwave energy
 - Arcade cabinet mindset
-- Clean engine-agnostic architecture
+- Designed as a showcase of clean architecture applied to arcade gameplay
 
 ---
 
 ## Tech
 
-- Engine-agnostic deterministic game core
+- Engine-agnostic deterministic game core (30Hz)
+- Snapshot + Events rendering model
+- Rendering and audio decoupled from game logic
 - TypeScript
 - Phaser (2D client)
 - Three.js (3D client)
+- CLI pseudo-graphics client (debug + playable)
+
+---
+
+## Documentation
+
+- [Read the Documentation](docs/00_INDEX.md)
 
 ---
 
 <p align="center">
-  <img src="./cat-em-up-poster.jpg" width="700" />
+  <img src="./concept/poster-0.png" width="700" />
 </p>
 
 ---
 
-Claws out. Game on.
+Coin In. Claws Out. Break Bones.

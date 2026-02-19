@@ -1,5 +1,8 @@
 # Cat ’Em Up — Project Status
 
+**Doc ID:** CATEMUP-STATUS  
+**Version:** 0.0.2
+
 ## Current Phase
 
 Foundation & Character Identity Lock

@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# 032 — Combat (Attacks, Damage, Block, Parry)
+# Combat (Attacks, Damage, Block, Parry)
 
 ← [Back to Index](00_INDEX.md)
 

@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# 030 — Input Model (Frames, Actions, Buffering)
+# Input Model (Frames, Actions, Buffering)
 
 ← [Back to Index](00_INDEX.md)
 

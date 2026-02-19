@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# 033 — Enemies (v0.0.1 Dumb Archetypes)
+# Enemies (v0.0.1 Dumb Archetypes)
 
 ← [Back to Index](00_INDEX.md)
 

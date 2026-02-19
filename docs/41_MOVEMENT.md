@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# 031 — Movement (Walk, Jump, Dodge, Dash)
+# Movement (Walk, Jump, Dodge, Dash)
 
 ← [Back to Index](00_INDEX.md)
 

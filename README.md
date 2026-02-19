@@ -1,7 +1,7 @@
 # CAT ’EM UP!
 
 <p align="center">
-  <img src="./cat-em-up-logo.jpg" width="400" />
+  <img src="./cat-em-up-logo.png" width="400" />
 </p>
 
 <p align="center">

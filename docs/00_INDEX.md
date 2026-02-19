@@ -32,8 +32,8 @@
 
 ## Clients
 
-- [Clients](60_CLIENTS.md) - Rendering clients (2D / 3D / CLI)
-- [Audio](61_AUDIO.md) - Event-driven audio system
+- [View Clients](60_VIEW_CLIENTS.md) - Rendering clients (2D / 3D / CLI)
+- [Audio Clients](61_AUDIO_CLIENTS.md) - Audio clients (WebAudio / Native / CLI / Headless)
 
 ---
 

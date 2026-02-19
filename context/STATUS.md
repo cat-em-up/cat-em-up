@@ -1,15 +1,20 @@
 # Cat ’Em Up — Project Status
 
 **Doc ID:** CATEMUP-STATUS  
-**Version:** 0.0.2
+**Version:** 0.0.3
+
+---
 
 ## Current Phase
 
-Foundation & Character Identity Lock
+Pre-Production Complete → Production Start
 
-Core tone defined.  
+Core tone locked.  
 Creative direction stabilized.  
-Primary characters conceptually established.
+Primary characters fully defined.  
+World foundation established.  
+
+We are ready to write the first lines of code.
 
 ---
 
@@ -29,65 +34,98 @@ Creative Direction:
 - Emotion through posture and motion
 - Subtle homage strategy (no obvious references)
 
+Technical Direction:
+- Deterministic simulation core
+- Strict separation of Core and Client
+- X/Z gameplay plane
+- 3D coordinate system (X+, Y+, Z+ defined)
+- No rendering logic inside gameplay core
+
 ---
 
 ## Character Status
 
-### Leader (Working Name)
-- Lean, athletic
-- Biker aesthetic
-- Toothpick
-- Crossed arms pose
-- Confident smirk ("Flash Before Impact")
-- Defined combat identity (balanced)
+All four core characters conceptually defined.
 
-### Bruiser (Working Name)
-- Maine Coon
-- Heavy grappler archetype
-- Black mustache
-- Cold, minimal expression
-- Slow but impactful combat identity
+### Leader — Timmy
+- Visual identity locked
+- Personality locked
+- Combat identity defined
+- Concept image created
 
-### Fast Cat
-- Archetype defined (Speed / Rhythm)
-- Visual direction not finalized
+### Bruiser — Dan
+- Visual identity locked
+- Archetype finalized
+- Concept image created
 
-### Fourth Slot
-- Archetype under exploration
-- Team dynamic role pending decision
+### Fast Cat — Jett
+- Visual direction finalized
+- Archetype locked
+- Concept image created
 
-Characters.md created and structured.
+### Rogue — Knoxx
+- Archetype locked (Counter / Precision)
+- Focus mechanic defined
+- Concept image created
+
+Roster identity complete.
 
 ---
 
-## In Progress
+## World Status
 
-- Repository structure setup
-- Core architecture scaffolding
-- Combat mechanic decision
-- Fast Cat visual direction
-- Fourth archetype selection
+City concept defined.
+
+- Urban neon environment
+- Internal power structure drafted
+- Criminal ecosystem logic defined
+- Tone consistent with 80s cult action cinema
+- Law, control, and territory rules established
+
+The world now supports narrative tension.
+
+---
+
+## Completed Pre-Production Work
+
+- Character archetypes finalized
+- Names and identities locked
+- Visual concepts created
+- City and lore foundation drafted
+- Combat direction philosophy defined
+- Scope boundaries reinforced
+- Documentation structure stabilized
+
+Creative phase complete.  
+Discipline maintained.
 
 ---
 
 ## Next Milestone
 
-Minimal Vertical Slice:
+Begin Core Implementation.
 
-- Player movement (X/Z plane)
-- Basic attack input
-- 1 enemy type
+Phase 1 Objectives:
+
+- Game state structure
+- Entity model
+- Deterministic update loop
+- Movement logic (X/Z plane)
+- Basic attack resolution
 - HP system
 - Hit detection
-- Knockback
-- Enemy death
-- Freeze-frame impact effect
+- Knockback system
+- Event dispatch layer
 
-Goal: first satisfying combat loop (feel before visuals).
+Goal: First functional combat interaction.
+
+Not pretty.  
+Not animated.  
+Just correct.
 
 ---
 
-## Near-Term Roadmap
+## Production Roadmap
 
 Phase 1:
 - Deterministic game core
@@ -96,13 +134,14 @@ Phase 1:
 - Event system
 
 Phase 2:
-- Phaser 2D client
-- Basic visuals
+- Basic rendering client
+- Visual placeholders
 - Hit effects
 - Screen shake
 - Camera behavior rules
 
 Phase 3:
+- Enemy variations
 - Boss prototype
 - Arena lock logic
 - Music integration
@@ -121,15 +160,15 @@ No feature creep.
 
 ---
 
-## Long-Term Vision (Not Active)
+## Long-Term Vision (Dormant)
 
 - Expanded episodes
 - Kickstarter campaign
 - Steam release
 - Co-op mode
 
-These are future considerations.
-Current focus is one polished vertical slice.
+Future considerations.
+Not active.
 
 ---
 

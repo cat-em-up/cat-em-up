@@ -1,7 +1,9 @@
 # Cat ’Em Up — Project Context
 
 **Doc ID:** CATEMUP-CONTEXT  
-**Version:** 0.0.3
+**Version:** 0.0.4
+
+---
 
 ## Project Identity
 
@@ -30,7 +32,7 @@ This is pure arcade intensity with stylistic confidence.
 - No meme spam
 - Confident, bold, slightly exaggerated 80s energy
 
-Think:
+Visual references:
 
 - Arcade cabinet art
 - VHS action movie covers
@@ -46,7 +48,7 @@ Think:
 - Strong silhouettes
 - High-contrast lighting
 - Dramatic freeze-frames
-- Subtle CRT flavor (optional)
+- Optional subtle CRT flavor
 
 Hero aesthetic:
 
@@ -55,7 +57,7 @@ Hero aesthetic:
 - Worn denim
 - Fingerless gloves
 - Aggressive stance
-- 80s action movie hero framing
+- 80s action movie framing
 
 ---
 
@@ -68,6 +70,7 @@ Style:
 - Synthwave accents
 
 Tempo:
+
 128–135 BPM
 
 Rules:
@@ -126,8 +129,8 @@ Core must:
 
 Public API:
 
-createGame(config, seed?)
-step(game, inputFrame, dt) => { snapshot, events }
+createGame(config, seed?)  
+step(game, inputFrame, dt) → { snapshot, events }
 
 Rendering layer must never contain gameplay logic.
 
@@ -135,65 +138,63 @@ Rendering layer must never contain gameplay logic.
 
 ## Documentation Structure
 
-The project documentation is intentionally separated from internal context memory.
+Production documentation lives in the `docs/` directory.
 
-Internal memory files:
-- context/STATUS.md
-- context/CONTEXT.md
-- context/CHARACTERS.md
+Numbering scheme:
 
-Production documentation lives in the `docs/` directory and follows a numeric structure inspired by classic BASIC line numbering.
+- Two-digit grouped blocks (00, 10, 30, 40, 50, 60, 70, 80)
+- Character files use 11–19 range
+- Systems grouped by functional blocks
+- Clean decade spacing for future expansion
 
-The numbering scheme:
+---
 
-- Uses three digits (010, 020, 030…)
-- Groups related topics within the same decade range
-- Allows insertion of new documents without renaming existing ones
-
-Current structure:
+### Core
 
 - 00_INDEX.md — Documentation index
-- 010_OVERVIEW.md — Project summary and goals
-- 020_ARCHITECTURE.md — System architecture and simulation model
-
-Gameplay systems:
-- 030_INPUT.md — Input model and action mapping
-- 031_COMBAT.md — Combat rules and combo logic
-- 032_MOVEMENT.md — Movement, jump and dodge mechanics
-
-Level system:
-- 040_LEVEL_FORMAT.md — Semantic level definition
-- 041_GEOMETRY.md — Stripes, volumes and collision model
-
-Clients:
-- 050_CLIENTS.md — Rendering clients
-- 051_AUDIO.md — Audio system
-
-Process:
-- 060_WORKFLOW.md — Development rules
-- 070_DECISIONS.md — Architectural decision log
+- 10_OVERVIEW.md — Project overview
+- 30_ARCHITECTURE.md — Core architecture
 
 ---
 
-## Documentation Template
+### Gameplay Systems
 
-Every file inside `docs/` must follow this structure:
-
-```md
-<a id="top"></a>
-
-# Title here
-
-← [Back to Index](00_INDEX.md)
+- 40_INPUT.md — Input model
+- 41_MOVEMENT.md — Movement system
+- 42_COMBAT.md — Combat rules
+- 43_ENEMIES.md — Enemy design
 
 ---
 
-... content here ...
+### Level System
+
+- 50_LEVEL_FORMAT.md — Semantic level definition
+- 51_GEOMETRY.md — Geometry & collision model
 
 ---
 
-↑ [Back to top](#top)
-```
+### Rendering & Audio
+
+- 60_CLIENTS.md — Rendering clients
+- 61_AUDIO.md — Audio system
+
+---
+
+### Process
+
+- 70_WORKFLOW.md — Development rules
+- 80_DECISIONS.md — Architectural decision log
+
+---
+
+### Characters
+
+- 15_CHARACTERS.md — Roster overview
+- 11_MEOWAMI.md — (reserved / optional slot)
+- 16_LEADER.md — Leader
+- 17_BRUISER.md — Bruiser
+- 18_FAST_CAT.md — Fast Cat
+- 19_ROGUE.md — Rogue
 
 ---
 
@@ -221,8 +222,8 @@ It must never feel like:
 - Expanded roster
 - Co-op mode
 
-These are future considerations.
-Current focus is a strong vertical slice.
+These are future considerations.  
+Current focus is one strong vertical slice.
 
 ---
 

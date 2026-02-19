@@ -24,6 +24,7 @@ This project prioritizes discipline over speed.
 ### 1. Core is sacred
 
 Core:
+
 - Contains only simulation logic
 - Has no engine dependencies
 - Has no rendering code
@@ -38,6 +39,7 @@ Any violation of this rule must be rejected.
 ### 2. No logic in clients
 
 View and Audio:
+
 - Must not contain gameplay rules
 - Must not change world state
 - Must not compute damage or collision
@@ -49,6 +51,7 @@ Clients render and react only.
 ### 3. Input pipeline is separate
 
 Input/Control runtime:
+
 - Reads devices
 - Normalizes input
 - Maps to actions
@@ -62,6 +65,7 @@ Core consumes InputFrame only.
 ### 4. Add features only through documents
 
 Before implementing:
+
 - Write or update relevant document
 - Lock decisions
 - Define invariants

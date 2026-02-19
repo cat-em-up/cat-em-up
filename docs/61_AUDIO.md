@@ -11,12 +11,14 @@
 Define an output-only audio client.
 
 Audio client:
+
 - consumes only `{ snapshot, events }` from Core
 - never reads device input
 - never changes simulation
 - never contains gameplay rules
 
 It translates core events into:
+
 - sound effects (SFX)
 - music playback and transitions
 - optional UI sounds
@@ -26,10 +28,12 @@ It translates core events into:
 ## Data Contract
 
 Core provides per step:
+
 - `snapshot` (optional context)
 - `events` (primary driver)
 
 Audio client:
+
 - processes events once (frame-scoped)
 - keeps its own playback state (what is currently playing)
 
@@ -40,16 +44,19 @@ No backchannel to core.
 ## Music Direction (Locked)
 
 Style:
+
 - 80s rock
 - disco-rock groove
 - synthwave accents
 
 Rules:
+
 - instrumental only
 - seamless gameplay loop
 - high-energy, gameplay-focused (not cinematic ambient)
 
 Tempo target:
+
 - 128–135 BPM
 
 ---
@@ -57,16 +64,21 @@ Tempo target:
 ## Audio Layers
 
 ### 1) Music
+
 Continuous loop per level/segment/arena state.
 
 ### 2) SFX
+
 Event-driven one-shots:
+
 - hits, parries, block, deaths
 - footsteps (optional)
 - UI confirmations (optional)
 
 ### 3) Stingers (optional)
+
 Short one-shots that punctuate moments:
+
 - arena lock
 - arena unlock
 - boss spawn
@@ -80,6 +92,7 @@ Audio client defines a mapping table:
 `EventType -> SoundId (+ params)`
 
 Examples:
+
 - `HitLanded` -> `sfx_hit_light` or `sfx_hit_heavy`
 - `Blocked` -> `sfx_block_thud`
 - `ParryTriggered` -> `sfx_parry_clang`
@@ -95,6 +108,7 @@ Examples:
 Core emits `reason` for reactions (e.g. ParryStun, Knockdown).
 
 Audio client may use reason as a selector:
+
 - `StateApplied(reason='Knockdown')` -> `sfx_body_fall`
 - `StateApplied(reason='ParryStun')` -> `sfx_parry_impact` (optional)
 
@@ -106,6 +120,7 @@ Audio chooses sound variants only.
 ## Voice / Grunts (Optional)
 
 If we add character grunts later:
+
 - driven by the same events
 - per archetype voice bank:
   - `hero_grunt_hit_01..N`
@@ -119,12 +134,15 @@ Audio randomness is allowed, but should be consistent per client if desired.
 ## Mixing Rules (Simple Defaults)
 
 ### SFX priorities
+
 - Parry > Heavy hit > Light hit > Footsteps
 
 ### Ducking (optional)
+
 When a high-impact event happens:
+
 - temporarily reduce music volume for a short window
-Examples:
+  Examples:
 - `ParryTriggered`
 - `HeavyHit`
 - `BossStinger`
@@ -140,6 +158,7 @@ Audio client maintains a simple music mode:
 - `Boss` (reserved)
 
 Transitions are triggered by events:
+
 - `ArenaLocked` => switch to Arena loop
 - `ArenaUnlocked` => back to Explore loop (or play stinger then return)
 - `BossSpawned` (future) => Boss loop
@@ -155,6 +174,7 @@ Audio client must not drive simulation time.
 - Any scheduling (delays) is internal to audio playback only
 
 If an event arrives late due to frame hiccup:
+
 - play immediately
 - do not attempt to "rewind" simulation
 
@@ -175,6 +195,7 @@ If an event arrives late due to frame hiccup:
 ## Debug Mode (Recommended)
 
 Audio client can expose debug info:
+
 - currently playing music track
 - last N SFX events processed
 - active ducking state

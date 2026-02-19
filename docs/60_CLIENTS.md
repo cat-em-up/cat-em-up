@@ -11,12 +11,14 @@
 Define output-only clients that consume core results.
 
 Clients:
+
 - do not read devices
 - do not map controls
 - do not detect patterns
 - do not affect simulation
 
 They only consume:
+
 - Snapshot (state)
 - Events (signals)
 
@@ -40,6 +42,7 @@ Input is produced by a separate deterministic control runtime (see Architecture)
 Snapshot is a read-only representation of world state.
 
 Typical contents:
+
 - entities: id, kind, position, facing, state
 - hp values and death flags
 - active attacks (if needed for animation)
@@ -47,6 +50,7 @@ Typical contents:
 - segment/level ids useful for view
 
 Snapshot must be:
+
 - deterministic
 - serializable
 - free of engine objects
@@ -60,6 +64,7 @@ No functions. No references to DOM/Phaser/Three.
 Events are emitted by core to drive presentation and debugging.
 
 Examples:
+
 - HitLanded
 - ParryTriggered
 - AttackStarted / AttackAborted
@@ -76,6 +81,7 @@ Events are immutable and processed once by clients.
 View clients render frames from snapshot and react to events.
 
 Responsibilities:
+
 - sprites / animations
 - reaction animations based on `reason`
 - hit sparks, screen shake, freeze-frame
@@ -92,6 +98,7 @@ View clients never implement gameplay logic.
 Audio is driven by core events.
 
 Responsibilities:
+
 - map events to SFX
 - handle music playback and loops
 - play stingers on arena unlock / boss spawn
@@ -106,6 +113,7 @@ Audio client never decides game outcomes.
 Clients must not drive gameplay time.
 
 Recommended:
+
 - a single runtime loop calls core step at fixed rate (e.g. 30 Hz)
 - clients render at display rate (e.g. 60/120 Hz) using latest snapshot
 - optional interpolation for visuals only

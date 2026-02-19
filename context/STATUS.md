@@ -12,7 +12,7 @@ Pre-Production Complete → Production Start
 Core tone locked.  
 Creative direction stabilized.  
 Primary characters fully defined.  
-World foundation established.  
+World foundation established.
 
 We are ready to write the first lines of code.
 
@@ -24,9 +24,10 @@ Title: Cat ’Em Up
 Tagline: Insert Coin. Break Bones. Claws Out.  
 Genre: Retro 80s Beat ’Em Up  
 Platform: Browser (initial target)  
-Core: Engine-agnostic TypeScript simulation layer  
+Core: Engine-agnostic TypeScript simulation layer
 
 Creative Direction:
+
 - Serious 80s arcade tone
 - No parody
 - Strong silhouettes
@@ -35,6 +36,7 @@ Creative Direction:
 - Subtle homage strategy (no obvious references)
 
 Technical Direction:
+
 - Deterministic simulation core
 - Strict separation of Core and Client
 - X/Z gameplay plane
@@ -48,22 +50,26 @@ Technical Direction:
 All four core characters conceptually defined.
 
 ### Leader — Timmy
+
 - Visual identity locked
 - Personality locked
 - Combat identity defined
 - Concept image created
 
 ### Bruiser — Dan
+
 - Visual identity locked
 - Archetype finalized
 - Concept image created
 
 ### Fast Cat — Jett
+
 - Visual direction finalized
 - Archetype locked
 - Concept image created
 
 ### Rogue — Knoxx
+
 - Archetype locked (Counter / Precision)
 - Focus mechanic defined
 - Concept image created
@@ -128,12 +134,14 @@ Just correct.
 ## Production Roadmap
 
 Phase 1:
+
 - Deterministic game core
 - Entity/state model
 - Combat resolution logic
 - Event system
 
 Phase 2:
+
 - Basic rendering client
 - Visual placeholders
 - Hit effects
@@ -141,6 +149,7 @@ Phase 2:
 - Camera behavior rules
 
 Phase 3:
+
 - Enemy variations
 - Boss prototype
 - Arena lock logic
@@ -176,6 +185,6 @@ Not active.
 
 Discipline over scope.  
 Impact over complexity.  
-Arcade first.  
+Arcade first.
 
 Claws out.

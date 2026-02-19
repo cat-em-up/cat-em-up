@@ -11,6 +11,7 @@
 ### Deterministic Core
 
 Core:
+
 - Engine-agnostic
 - Fixed-step simulation (recommended 30 Hz)
 - Uses seeded PRNG
@@ -20,9 +21,9 @@ Core:
 
 ### Layer Separation
 
-Input Layer
-Control Layer
-Core Simulation
+Input Layer  
+Control Layer  
+Core Simulation  
 Clients (View + Audio)
 
 Clients are output-only.
@@ -69,6 +70,47 @@ Clients are output-only.
 - Reason tag required
 - View chooses animation based on reason
 - Core does not branch on visuals
+
+---
+
+## Movement Decisions
+
+### Movement State Priority (Locked)
+
+Movement resolution follows strict priority order (highest → lowest):
+
+1. Dead
+2. ForcedMovement (Knockback / Knockdown / Launch / Grabbed etc.)
+3. Incapacitated (HitStun / ParryStun / BlockStun)
+4. Roll / Dash
+5. Air (Jump curve + optional air control)
+6. Ground (Walk / Idle)
+
+Higher-priority states fully override lower-priority movement.
+
+---
+
+### MovementLocked Rule (Locked)
+
+`MovementLocked` is a control filter, not a top-priority movement state.
+
+When active:
+
+- Player-driven ground movement is disabled.
+- Air control is disabled.
+- Roll/Dash cannot start.
+
+It does NOT override:
+
+- ForcedMovement states.
+- Active knockback/launch.
+- Active Roll/Dash if the lock reason is soft (e.g. Recovery/Cinematic).
+
+If Roll/Dash is active and a new state is applied:
+
+- ForcedMovement → Roll/Dash is cancelled immediately.
+- Incapacitated (HitStun/ParryStun) → Roll/Dash is cancelled immediately.
+- Soft lock (Recovery/Cinematic) → Roll/Dash continues until completion.
 
 ---
 

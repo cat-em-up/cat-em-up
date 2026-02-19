@@ -49,16 +49,16 @@ same inputs =\> same enemy spawns.
 
 ### Required fields
 
--   `id: string`
--   `title: string`
--   `bounds: { zMin: number, zMax: number }`
--   `start: { playerX: number, playerZ: number }`
--   `segments: Segment[]`
+- `id: string`
+- `title: string`
+- `bounds: { zMin: number, zMax: number }`
+- `start: { playerX: number, playerZ: number }`
+- `segments: Segment[]`
 
 ### Optional fields
 
--   `seedPolicy: "fixed" | "runtime"`
--   `musicTrackId: string`
+- `seedPolicy: "fixed" | "runtime"`
+- `musicTrackId: string`
 
 ---
 
@@ -66,13 +66,13 @@ same inputs =\> same enemy spawns.
 
 ### Fields
 
--   `id: string`
--   `xFrom: number`
--   `xTo: number`
--   `zMin?: number`
--   `zMax?: number`
--   `arenaLock?: ArenaLock`
--   `triggers?: Trigger[]`
+- `id: string`
+- `xFrom: number`
+- `xTo: number`
+- `zMin?: number`
+- `zMax?: number`
+- `arenaLock?: ArenaLock`
+- `triggers?: Trigger[]`
 
 If z bounds omitted, use level global bounds.
 
@@ -82,13 +82,13 @@ If z bounds omitted, use level global bounds.
 
 ### Fields
 
--   `enabled: boolean`
--   `gateX: number`
--   `unlockCondition: UnlockCondition`
+- `enabled: boolean`
+- `gateX: number`
+- `unlockCondition: UnlockCondition`
 
 ### UnlockCondition (current)
 
--   `{ kind: "defeatAllInSegment" }`
+- `{ kind: "defeatAllInSegment" }`
 
 Unlocks when all enemies spawned by this segment are defeated.
 
@@ -98,13 +98,13 @@ Unlocks when all enemies spawned by this segment are defeated.
 
 ### Supported types
 
-1)  On player crossing X:
+1.  On player crossing X:
 
--   `{ kind: "onPlayerX", x: number }`
+- `{ kind: "onPlayerX", x: number }`
 
-2)  On segment enter:
+2.  On segment enter:
 
--   `{ kind: "onSegmentEnter", segmentId: string }`
+- `{ kind: "onSegmentEnter", segmentId: string }`
 
 Each trigger fires once unless extended later.
 
@@ -114,15 +114,15 @@ Each trigger fires once unless extended later.
 
 ### SpawnSpec
 
--   `archetypeId: string`
--   `count: number`
--   `positions: SpawnPositionSpec`
--   `spawnIntervalMs?: number`
+- `archetypeId: string`
+- `count: number`
+- `positions: SpawnPositionSpec`
+- `spawnIntervalMs?: number`
 
 ### SpawnPositionSpec
 
--   `{ kind: "nearPlayer", xOffsetMin, xOffsetMax, z }`
--   `{ kind: "fixedPoints", points: [{ x, z }] }`
+- `{ kind: "nearPlayer", xOffsetMin, xOffsetMax, z }`
+- `{ kind: "fixedPoints", points: [{ x, z }] }`
 
 All spawn positions are clamped to active bounds.
 
@@ -130,7 +130,7 @@ All spawn positions are clamped to active bounds.
 
 ## Minimal Example
 
-``` json
+```json
 {
   "id": "level_001_alley",
   "title": "Neon Alley",
@@ -155,10 +155,10 @@ All spawn positions are clamped to active bounds.
 
 ## Runtime Rules
 
--   Triggers fire once and are tracked by id.
--   Spawned enemies are tagged with segment id.
--   Arena unlock checks only enemies spawned in that segment.
--   All invalid positions are clamped, never rejected.
+- Triggers fire once and are tracked by id.
+- Spawned enemies are tagged with segment id.
+- Arena unlock checks only enemies spawned in that segment.
+- All invalid positions are clamped, never rejected.
 
 ---
 

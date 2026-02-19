@@ -96,11 +96,13 @@ Counter / Precision / Timing
 ### Focus Mechanic
 
 Focus builds while:
+
 - Not attacking
 - Maintaining defensive stance
 - Successfully blocking
 
 Full Focus enables:
+
 - Guaranteed critical counter
 - Brief screen dim effect
 - Metallic impact audio cue

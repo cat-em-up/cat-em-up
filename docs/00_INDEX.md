@@ -1,4 +1,4 @@
-# ***Cat 'Em Up*** Documentation
+# **_Cat 'Em Up_** Documentation
 
 ## Project Overview
 

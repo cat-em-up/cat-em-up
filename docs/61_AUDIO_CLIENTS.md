@@ -32,6 +32,7 @@ They translate core output into:
 - sound effects (SFX)
 - music playback and transitions
 - optional UI sounds
+- character voice reactions
 
 ---
 
@@ -82,7 +83,10 @@ Continuous loop per level / segment / arena state.
 
 Event-driven one-shots:
 
-- hits, parries, block, deaths
+- hits
+- parries
+- blocks
+- deaths
 - footsteps (optional)
 - UI confirmations (optional)
 
@@ -95,23 +99,38 @@ Short one-shots that punctuate moments:
 - boss spawn
 - level end freeze-frame
 
+### 4) Voice (Character Reactions)
+
+Character voice lines are presentation-only reactions to core events.
+
+Voice system is fully implemented inside audio clients.
+
+Core must not be aware of:
+
+- specific phrases
+- probabilities
+- cooldown rules
+- personality logic
+- character flavor decisions
+
+Voice is never allowed to influence gameplay timing, state, or outcomes.
+
 ---
 
 ## Event-Driven SFX Mapping
 
-Audio client defines a deterministic mapping table:
+Audio client defines a mapping table:
 
-`EventType -> SoundId (+ parameters)`
+`EventType -> Sound Category`
 
 Examples:
 
-- `HitLanded` -> `sfx_hit_light` / `sfx_hit_heavy`
-- `Blocked` -> `sfx_block_thud`
-- `ParryTriggered` -> `sfx_parry_clang`
-- `AttackAborted(reason='Parried')` -> `sfx_parry_break` (optional)
-- `EnemyDied` -> `sfx_enemy_death`
-- `ArenaLocked` -> `sfx_gate_close` (optional)
-- `ArenaUnlocked` -> `sfx_gate_open` + `stinger_win` (optional)
+- `HitLanded` -> light or heavy hit SFX
+- `Blocked` -> block impact SFX
+- `ParryTriggered` -> parry impact SFX
+- `EnemyDied` -> enemy death SFX
+- `ArenaLocked` -> gate close SFX
+- `ArenaUnlocked` -> gate open + optional stinger
 
 Mapping must not influence gameplay.
 
@@ -121,105 +140,113 @@ Mapping must not influence gameplay.
 
 Core emits `reason` tags for reactions (e.g. `ParryStun`, `Knockdown`).
 
-Audio clients may use reason as a selector:
-
-- `StateApplied(reason='Knockdown')` -> `sfx_body_fall`
-- `StateApplied(reason='ParryStun')` -> `sfx_parry_impact` (optional)
+Audio clients may use reason as a selector for SFX variants.
 
 Gameplay never branches on audio.
-Audio selects variants only.
+Audio selects presentation variants only.
 
 ---
 
-## Voice / Grunts (Optional Future)
+# Character Voice System (Locked)
 
-If character voice is added:
+Voice reactions are driven by core events.
 
-- triggered by the same core events
-- per archetype voice banks:
-  - `hero_grunt_hit_01..N`
-  - `enemy_thug_hit_01..N`
+Each relevant event may trigger a voice pool.
 
-Audio-level randomness is allowed but must not affect simulation.
+Example event categories:
 
----
+- Hero KO (enemy defeated)
+- Hero Perfect Parry
+- Hero Hurt
+- Arena Unlock
+- Boss Defeat
 
-## Mixing Rules (Default Policy)
+Audio client decides:
 
-### SFX Priority
+- whether to play a line
+- which pool to use
+- which line to select
 
-- Parry > Heavy hit > Light hit > Footsteps
-
-### Ducking (Optional)
-
-On high-impact events:
-
-- temporarily reduce music volume
-
-Examples:
-
-- `ParryTriggered`
-- `HeavyHit`
-- `BossStinger`
-
-Ducking duration and gain are client-configurable.
+Core remains unaware of all voice logic.
 
 ---
 
-## Music State Machine (Minimal)
+## Weighted Voice Selection
 
-Audio client maintains simple music mode:
+Each voice pool contains multiple lines with different drop rates.
 
-- `Explore`
-- `Arena`
-- `Boss` (future)
+Every line has an associated probability weight.
 
-Transitions triggered by events:
+Higher weight -> more common.
+Lower weight -> rarer.
 
-- `ArenaLocked` → switch to Arena loop
-- `ArenaUnlocked` → return to Explore (optionally via stinger)
-- `BossSpawned` (future) → Boss loop
+This allows:
 
-Music state is presentation-only and never affects gameplay.
+- common lines (baseline personality)
+- uncommon lines (variation)
+- rare lines (flavor depth)
+- ultra-rare easter eggs
 
----
-
-## Timing and Sync
-
-Audio clients must not drive gameplay time.
-
-- Core runs at fixed simulation rate (e.g. 30 Hz)
-- Audio reacts to events emitted per step
-- Any scheduling (delays) is internal to playback only
-
-If an event arrives late due to frame hiccup:
-
-- play immediately
-- never attempt to rewind or resimulate
+Weighted randomness exists purely at audio level.
+It must never affect simulation determinism.
 
 ---
 
-## Asset Naming (Suggested Convention)
+## Rare Easter Egg Policy
 
-- `music_level01_explore_loop`
-- `music_level01_arena_loop`
-- `stinger_arena_unlock`
-- `sfx_hit_light_01..N`
-- `sfx_hit_heavy_01..N`
-- `sfx_block_01..N`
-- `sfx_parry_01..N`
+Audio clients may include ultra-low probability lines.
+
+These:
+
+- must not break tone
+- must not rely on player understanding the reference
+- must not feel like parody
+- must not become frequent
+
+Rare lines should feel like a reward for attentive players.
 
 ---
 
-## Debug Mode (Recommended)
+## Voice Cooldown / Anti-Spam Policy (Recommended)
 
-Audio clients may expose debug information:
+To preserve tone and impact:
 
-- currently playing music track
-- last N SFX events processed
-- active ducking state
+Audio clients may implement:
 
-Useful for tuning feel and verifying event correctness.
+- per-event cooldowns
+- per-character cooldowns
+- global speech cooldown
+- recently-played suppression
+
+Characters must never sound chatty.
+Silence is often more powerful than repetition.
+
+---
+
+## Determinism Policy
+
+Voice randomness:
+
+- does not need to be deterministic
+- does not need to match across clients
+- must not alter event timing
+- must not feed back into core
+
+Replay systems may optionally mute or standardize voice output.
+
+---
+
+## Tone Preservation Rule
+
+Voice lines must respect project tone:
+
+- serious 80s arcade energy
+- minimal dialogue
+- no meme humor
+- no parody
+- no modern sarcasm tone
+
+Character personality is expressed through brevity and impact.
 
 ---
 
@@ -231,6 +258,7 @@ They consume core events and snapshot context,
 and produce sound.
 
 Core never depends on audio.
+Voice never affects gameplay.
 
 ---
 

@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-  <img src="../concept/characters/timmy-0.png" width="400" />
+  <img src="../concept/characters/timmy/timmy-0.png" width="400" />
 </p>
 
 ## Role

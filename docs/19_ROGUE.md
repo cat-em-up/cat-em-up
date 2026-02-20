@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-  <img src="../concept/characters/knoxx-0.png" width="400" />
+  <img src="../concept/characters/knoxx/knoxx-0.png" width="400" />
 </p>
 
 ## Role

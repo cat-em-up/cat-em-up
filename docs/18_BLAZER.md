@@ -15,6 +15,7 @@
 **Name:** Nova Jett  
 **Role:** Blazer  
 **Archetype:** Speed / Pressure / Voice of Resistance  
+**Occupation:** Underground Rock Vocalist / Voice of Resistance  
 **Motto:** _Claws Out_
 
 Jett is ignition.

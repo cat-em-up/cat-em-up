@@ -15,6 +15,7 @@
 **Name:** Dan  
 **Role:** Bruiser  
 **Archetype:** Heavy / Wrestler / Old School Fighter  
+**Occupation:** Former National Wrestling Champion
 **Motto:** _Be The Beast_
 
 Dan is the team’s immovable force — the wall that chaos breaks against.

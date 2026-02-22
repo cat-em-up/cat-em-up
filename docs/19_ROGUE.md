@@ -15,7 +15,8 @@
 **Name:** Knoxx  
 **Role:** Rogue  
 **Archetype:** Counter / Precision / Timing  
-**Motto:** _Do you feel lucky, rat?_
+**Occupation:** Private Detective  
+**Motto:** _Do you feel lucky?_
 
 Knoxx is restraint.
 
@@ -45,6 +46,23 @@ All immutable visual rules are defined here:
 → [Visual Lock — Rogue](19_ROGUE_VISUAL_LOCK.md)
 
 This document defines **who Knoxx is**, not how he must be drawn.
+
+---
+
+## Who He Is
+
+Knoxx is a licensed private detective in Meowami City.
+
+He works the cases the Hounds ignore.  
+He digs into corruption the Pigs conceal.  
+He tracks movements the Rats think are invisible.
+
+He knows the city from rooftops to docks.  
+From neon clubs to dead-end alleys.
+
+He does not trust institutions.
+
+He trusts patterns.
 
 ---
 
@@ -175,6 +193,7 @@ Rogue must always read as:
 - Precision over aggression
 - Discipline over drama
 - 80s street anti-hero without cliché
+- Noir private detective energy
 
 Detailed visual enforcement is handled exclusively by the Visual Lock document.
 

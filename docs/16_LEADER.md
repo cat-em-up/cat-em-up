@@ -15,6 +15,7 @@
 **Name:** Timmy  
 **Role:** Team Leader  
 **Archetype:** Balanced / Control  
+**Occupation:** Motorcycle Mechanic  
 **Motto:** _Live to Claw — Claw to Live_
 
 Timmy is the stabilizing force of the team — the calm center around which chaos organizes itself.

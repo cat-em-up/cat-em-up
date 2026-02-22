@@ -18,54 +18,83 @@ If visual interpretation conflicts with other documents,
 
 ---
 
+<p align="center">
+  <img src="../concept/characters/knoxx/knoxx_canon.png" width="320" />
+  <br/>
+  <sub><b>Primary Canon Reference</b></sub>
+</p>
+
+---
+
 # Core Visual Identity
 
 Knoxx must immediately read as:
 
-- Veteran street anti-hero
+- 80s street anti-hero
+- Veteran presence
 - Vertical and composed
 - Controlled danger
 - Stillness before precision
-- 80s crime-drama presence
+- Crime-drama seriousness
 
 No ninja clichés.  
-No edgy over-stylization.  
-No gothic exaggeration.
+No gothic exaggeration.  
+No edgy fashion drift.  
+No anime stylization.
+
+He is restraint.
 
 ---
 
 # Species & Body Structure (LOCKED)
 
 - Black anthropomorphic cat
-- Lean hardened frame
-- Slightly taller posture than Leader
+- Lean hardened build
+- Slightly taller than Leader
 - Narrow but stable stance
-- Economical movement
+- Long vertical posture
+- Minimal mass exaggeration
+- Tight controlled proportions
 
 Must never appear:
 
+- Bulky
+- Bodybuilder muscular
 - Fragile
-- Overly muscular
 - Slouched excessively
-- Fashion-model stylized
+- Stylized fashion-thin
 - Anime-proportioned
 
 He is disciplined, not dramatic.
 
 ---
 
+<p align="center">
+  <img src="../concept/characters/knoxx/knoxx_stance.png" width="420" />
+  <br/>
+  <sub><b>Stance Reference — vertical balance & restraint</b></sub>
+</p>
+
+---
+
 # Fur (LOCKED)
 
-- Deep black base tone
-- Subtle cold-blue rim reflection under neon light
-- No visible patterns
-- Matte surface emphasis
+- Deep matte black
+- Subtle cold-blue rim under neon lighting
+- No striping
+- No gray drift
+- No hyper-detail texture
+
+Rendering must prioritize graphic clarity.
 
 Avoid:
 
-- Glossy shine
-- Gray tint drift
-- High-detail fur rendering
+- Gloss shine
+- Wet highlights
+- Fur strand realism
+- Gradient softness
+
+Black must read as confident negative space.
 
 ---
 
@@ -82,55 +111,110 @@ Removing them breaks recognition.
 
 ---
 
+# Eyes (LOCKED)
+
+- Sharp yellow tone
+- Narrow pupils
+- Evaluating gaze
+- Low emotional expression
+
+Forbidden:
+
+- Red glow
+- Wide emotional eyes
+- Cute expressions
+- Anime shine
+- Dramatic rage exaggeration
+
+Eyes must feel analytical.
+
+---
+
 # Coat (PRIMARY SILHOUETTE ANCHOR)
 
 - Long structured leather coat
-- Knee-length
-- Matte graphite or deep midnight tone
+- Knee-length minimum
+- Matte graphite or midnight black
 - Heavy shoulder line
 - Clean vertical fall
-- Minimal texture noise
-- Moves slowly — never theatrically
+- Minimal seam noise
+- No exaggerated flare
 
 Forbidden:
 
 - Hood
-- Cape-like exaggeration
-- Trenchcoat parody flare
-- Excessive belts or straps
+- Cape-like movement
+- Trenchcoat parody drama
+- Excess straps
+- Tactical overload
 
 The coat must feel heavy.
+
+It moves slowly.
 
 ---
 
 # Outfit (LOCKED)
 
-- Dark fitted shirt underneath
-- Narrow combat trousers
-- Heavy boots
+## Shirt
+
+- Dark fitted shirt
+- No visible logos
+- No bright contrasts
+- Minimal surface noise
+
+## Trousers
+
+- Narrow combat-style pants
+- Dark tone
+- Functional fit
+- No fashion rips
+- No stylized tailoring
+
+## Gloves
+
 - Simple leather gloves
-- Classic metal flip lighter (signature prop)
+- Dark matte finish
+- Functional, not flashy
+
+## Boots
+
+- Heavy black boots
+- Strong grounded silhouette
+- No futuristic shapes
+- No glam details
+
+## Signature Prop
+
+- Classic metal flip lighter
+- Small
+- Subtle
+- Not oversized
 
 No jewelry.  
 No chains.  
-No tactical overload.
+No studs.  
+No tactical cosplay.
 
 ---
 
-# Eyes (LOCKED)
+# Head & Expression
 
-- Sharp yellow tone
-- Narrow pupil
-- Evaluating gaze
+Default state:
+
+- Slight downward head tilt
+- Half-squint
+- Tight jawline
+- Minimal expression
 
 Forbidden:
 
-- Wide glowing eyes
-- Emotional exaggeration
-- Red glow effects
-- Cute expression
+- Smirking
+- Snarling
+- Wide rage
+- Comedy faces
 
-Eyes must feel analytical.
+Emotion = control.
 
 ---
 
@@ -140,17 +224,20 @@ Knoxx must read instantly in silhouette.
 
 Primary anchors:
 
-- Vertical coat line
+- Long vertical coat line
 - High collar shape
-- Slight downward head tilt
-- Minimal stance width
+- Slight forward head tilt
+- Narrow stance width
+- Clean shoulder profile
 
 Compared to team:
 
-- Leader = balanced
-- Bruiser = wide
-- Blazer = elongated and dynamic
-- Rogue = vertical and composed
+Leader = balanced  
+Bruiser = widest  
+Blazer = elongated  
+Rogue = vertical and composed
+
+Knoxx must always read as the cleanest vertical silhouette.
 
 ---
 
@@ -160,17 +247,51 @@ Movement must feel:
 
 - Minimal
 - Economical
-- Controlled
 - Efficient
+- Controlled
+- Precise
 
 Avoid:
 
 - Flashy spins
-- Dramatic coat flares
+- Dramatic coat explosions
 - Acrobatic excess
 - Stylized anime pauses
+- Over-choreographed theatrics
 
 He wastes no motion.
+
+---
+
+<p align="center">
+  <img src="../concept/characters/knoxx/knoxx_attack.png" width="520" />
+  <br/>
+  <sub><b>Counter Anchor — precision over force</b></sub>
+</p>
+
+---
+
+# Lighting & Rendering Style
+
+Style Direction: **Neo-Arcade Crime Realism**
+
+Allowed:
+
+- High contrast
+- Cyan rim lighting
+- Magenta neon reflections
+- Hard shadow planes
+- Graphic lighting clarity
+
+Avoid:
+
+- Pastel softness
+- Mobile-game gloss
+- Cyberpunk overload
+- Hyper-realistic fur
+- Overly cinematic blur
+
+He should feel carved from shadow.
 
 ---
 
@@ -182,6 +303,7 @@ Knoxx must visually communicate:
 - Calculation
 - Precision
 - Quiet threat
+- Veteran composure
 
 He is not mysterious.
 
@@ -193,7 +315,7 @@ He is measured.
 
 Every depiction must include:
 
-- Black fur
+- Deep black fur
 - Torn left ear
 - Facial scar
 - Yellow eyes
@@ -201,8 +323,8 @@ Every depiction must include:
 - Vertical silhouette
 - Minimal accessories
 
-If these are missing —  
-the character is not Rogue.
+If these markers are missing —  
+**the character is not Rogue.**
 
 ---
 
@@ -218,13 +340,16 @@ Before approving artwork:
 - [ ] No ninja drift
 - [ ] No gothic over-stylization
 - [ ] Motion economical
-- [ ] Tone controlled, not dramatic
+- [ ] Tone controlled
+- [ ] Reads as veteran anti-hero
 
 ---
 
-Wait.  
-Measure.  
-Correct.
+<p align="center">
+  <img src="../concept/characters/knoxx/knoxx_at_work.png" width="520" />
+  <br/>
+  <sub><b>Wait. Measure. Correct.</b></sub>
+</p>
 
 ---
 

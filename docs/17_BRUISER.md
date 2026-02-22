@@ -27,7 +27,7 @@ He is the heaviest presence in the room.
 
 <td width="40%" align="center">
 
-<img src="../concept/characters/dan/dan-0.png" width="280"/>
+<img src="../concept/characters/dan/dan_portrait.png" width="280"/>
 
 </td>
 </tr>

@@ -16,62 +16,80 @@ All character, narrative, or personality descriptions are handled in
 If visual interpretation conflicts with other documents,  
 **this document takes priority.**
 
-No image references yet.  
-This is pure visual rule enforcement.
+---
+
+<p align="center">
+  <img src="../concept/characters/dan/dan_canon.png" width="320" />
+  <br/>
+  <sub><b>Primary Canon Reference</b></sub>
+</p>
 
 ---
 
-# Core Visual Identity
+# Core Visual Identity (LOCKED)
 
 Dan must immediately read as:
 
 - Old-school heavyweight street fighter
-- Compact power, not bodybuilder bulk
+- Compact, dense power
 - Grounded and immovable
 - Minimalistic and disciplined
-- Dangerous without theatrical aggression
+- Visually heavy without exaggeration
+- Serious without theatrical aggression
 
 No parody.  
 No glam exaggeration.  
-No modern MMA aesthetic drift.
+No modern MMA drift.  
+No wrestling-show flamboyance.
 
 ---
+
+<table>
+<tr>
+<td width="55%" valign="top">
 
 # Species & Body Structure (LOCKED)
 
 - Anthropomorphic Maine Coon
 - Broad shoulder line
-- Thick neck and trapezius emphasis
+- Thick neck and trapezius mass
 - Upper body significantly wider than hips
-- Dense compact musculature (no shredded anatomy detail)
+- Dense compact musculature
+- Visible abs but not shredded bodybuilder detail
 - Heavy center of gravity
 - Slight forward weight bias in stance
 
 Must never appear:
 
-- Bodybuilder-cut with extreme definition
-- Fat or bulky
-- Slender or agile-looking
-- Fashion-model proportions
-- Cartoonishly oversized limbs
+- Over-cut bodybuilding anatomy
+- Soft or overweight
+- Slender or agile
+- Stylized fashion proportions
+- Cartoonishly exaggerated limbs
 
-He is heavy because of density, not mass exaggeration.
+He is dense. Not bulky.
+
+</td>
+
+<td width="45%" align="center">
+
+<img src="../concept/characters/dan/dan_stance.png" width="360"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
 # Fur (LOCKED)
 
-- Base fur: light gray
-- Subtle Maine Coon texture (not fluffy cartoon)
+- Base fur: ash gray
+- Subtle Maine Coon texture
 - No stripes
 - No high-contrast patterns
-- Fur rendering must remain graphic and readable
+- Graphic rendering, not hyper-realistic
 
-Avoid:
-
-- Hyper-realistic fur strands
-- Soft pastel rendering
-- Anime-style shine gradients
+Tone must remain controlled and matte.
 
 ---
 
@@ -82,28 +100,46 @@ Avoid:
 - Sharp, focused gaze
 - Low emotional expressiveness
 
-Forbidden:
+No warmth.  
+No glow.  
+No anime gloss.
 
-- Warm amber/yellow glow
-- Wide expressive eyes
-- Glossy anime highlights
-- Soft sympathetic gaze
-
-Eyes must feel calculating and calm.
+Eyes must feel calculating.
 
 ---
 
-# Mustache (NON-NEGOTIABLE)
+<table>
+<tr>
+<td width="45%" align="center">
 
-- Thick black mustache
+<img src="../concept/characters/dan/dan_art_0.png" width="360"/>
+
+</td>
+
+<td width="55%" valign="top">
+
+# Facial Structure & Marks (LOCKED)
+
+- Thick black straight mustache
 - Short length
-- Straight horizontal shape
-- Graphic and clean edges
+- Straight horizontal silhouette
+- Clean graphic edges
+- No tapering ends
 - No curls
 - No volume exaggeration
 
-If the mustache shape changes,  
+Additional identity markers:
+
+- Massive heavy eyebrows
+- Slight brow ridge emphasis
+- Small scar across one eyebrow
+
+If the mustache changes shape —  
 the character identity breaks.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -112,73 +148,69 @@ the character identity breaks.
 ## Vest
 
 - Black sleeveless leather vest
-- Matte to semi-matte finish
-- Clean structure
-- No decorative studs
+- Matte worn finish
+- Light surface scratches allowed
+- Clean biker cut
+- No studs
 - No chains
-- No metal glam
 
 ## Undershirt
 
-- White tank top
-- Visible neckline
-- Clean silhouette contrast
+None.  
+Chest is exposed.
 
-## Jeans
+## Pants
 
-- Dark worn denim
+- Dark charcoal cargo pants
+- Functional side pockets
 - Regular fit
-- Not skinny
-- No rips
-- No exaggerated stylization
 
 ## Wrist Wraps
 
-- Black
-- Functional
-- Tight around wrists
+- White boxing wraps
+- Tight and functional
 - Slight wear texture allowed
 
 ## Belt
 
-- Simple
-- No flashy buckle
-- No thematic emblems
+- Simple black belt
+- Plain buckle
 
-Forbidden:
+---
 
-- Wrestling tights
-- Tactical military gear
-- Modern MMA branding
-- Excessive jewelry
-- Chains
-- Fingerless gloves (reserved for Leader)
-- Boots with exaggerated styling
+# Footwear (LOCKED)
 
-Dan dresses like a fighter — not a performer.
+- Classic black low-top sneakers
+- White rubber toe cap
+- White sole edge
+
+No boots.  
+No tactical footwear.
 
 ---
 
 # Silhouette Rules (CRITICAL)
 
-Dan must read clearly in silhouette.
+Dan must read instantly in silhouette.
 
 Primary anchors:
 
 - Wide upper torso
 - Thick neck mass
-- Clean vest edge line
-- Straight mustache shape
+- Straight mustache bar
+- Broad eyebrow line
+- Sleeveless vest cut
+- Cargo pocket shapes
 - Stable planted stance
 
-Silhouette must feel heavier than Leader.
+Compared to team:
 
-If placed side by side:
+Leader = balanced  
+Bruiser = widest  
+Blazer = elongated  
+Rogue = vertical
 
-- Dan reads wider.
-- Leader reads balanced.
-- Blazer reads elongated.
-- Rogue reads vertical and narrow.
+Dan must read as the widest presence.
 
 ---
 
@@ -186,21 +218,15 @@ If placed side by side:
 
 Default idle stance:
 
-- Classic guarded position
-- Elbows tight to body
-- Weight slightly forward
-- Minimal motion
-- Low bounce
-- Controlled breathing
+- Feet planted
+- Weight forward
+- Elbows slightly bent
+- Fists tight
+- Minimal movement
+- No bouncing
 
-Must never:
-
-- Swing arms loosely
-- Overextend gestures
-- Lean dramatically backward
-- Pose theatrically
-
-He conserves energy.
+He does not warm up.  
+He waits.
 
 ---
 
@@ -210,17 +236,16 @@ Movement must feel:
 
 - Economical
 - Heavy
-- Controlled
 - Short-range
+- Crushing
 
-Animations must avoid:
+Avoid:
 
-- Wide dramatic wind-ups
 - Spin-heavy attacks
 - Agile flips
-- Flashy acrobatics
+- Flashy wind-ups
 
-Dan moves like weight shifting, not speed launching.
+Dan shifts weight like gravity.
 
 ---
 
@@ -233,8 +258,7 @@ Dan must visually communicate:
 - Experience
 - Physical consequence
 
-He is not angry.
-
+He is not angry.  
 He is inevitable.
 
 ---
@@ -243,14 +267,17 @@ He is inevitable.
 
 Every depiction must include:
 
-- Maine Coon structure
+- Maine Coon build
+- Ash gray fur
 - Thick straight black mustache
-- Broad upper torso
+- Heavy eyebrows
+- Small eyebrow scar
 - Sleeveless black leather vest
-- White tank top
-- Dark jeans
-- Black wrist wraps
-- Grounded stance
+- Exposed torso
+- Dark cargo pants
+- White boxing wraps
+- Black sneakers
+- No undershirt
 
 If these are missing —  
 the character is not Dan.
@@ -259,24 +286,25 @@ the character is not Dan.
 
 # Canon Compliance Checklist
 
-Before approving artwork:
-
-- [ ] Body proportions correct
-- [ ] Upper body wider than Leader
+- [ ] Upper body clearly widest in team
 - [ ] Mustache straight and graphic
-- [ ] Eyes cold gray
-- [ ] Vest correct and minimal
-- [ ] No glam or excessive detail
-- [ ] Silhouette heavy and stable
-- [ ] Motion feels weighted
-- [ ] No modern MMA drift
+- [ ] Eyebrow mass present
+- [ ] Scar subtle and readable
+- [ ] Vest matte and worn
+- [ ] Cargo pockets visible
+- [ ] White wraps present
+- [ ] Sneakers correct
+- [ ] No glam drift
 - [ ] Tone matches disciplined heavyweight presence
+- [ ] No undershirt present
 
 ---
 
-Clinch.  
-Control.  
-Consequence.
+<p align="center">
+  <img src="../concept/characters/dan/dan_art_1.png" width="420" />
+  <br/>
+  <sub><b>Clinch. Control. Consequence.</b></sub>
+</p>
 
 ---
 

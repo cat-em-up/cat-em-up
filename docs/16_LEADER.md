@@ -27,7 +27,7 @@ He is the most reliable.
 
 <td width="40%" align="center">
 
-<img src="../concept/characters/timmy/timmy_riding.png" width="280"/>
+<img src="../concept/characters/timmy/timmy_portrait.png" width="280"/>
 
 </td>
 </tr>

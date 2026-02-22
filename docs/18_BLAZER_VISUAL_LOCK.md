@@ -18,39 +18,65 @@ If visual interpretation conflicts with other documents,
 
 ---
 
-# Core Visual Identity
+<p align="center">
+  <img src="../concept/characters/jett/jett_canon.png" width="320" />
+  <br/>
+  <sub><b>Primary Canon Reference</b></sub>
+</p>
+
+---
+
+# Core Visual Identity (LOCKED)
 
 Jett must immediately read as:
 
-- 80s metal stage energy
-- Lean speed-focused fighter
-- Fierce, not glamorous
-- Intense without parody
-- Electrified motion
+- Rock frontwoman energy
+- Street-level resistance icon
+- Lean, speed-oriented fighter
+- Stage presence turned combat presence
+- Fierce without glam exaggeration
+- Electrified momentum
 
-No glam exaggeration.  
-No fashion-model drift.  
-No anime idol energy.
+She is not a fashion model.  
+She is not a pop idol.  
+She is not parody metal.
+
+She is ignition with intent.
 
 ---
+
+<table>
+<tr>
+<td width="55%" valign="top">
 
 # Species & Body Structure (LOCKED)
 
 - Lean athletic feline build
-- Elongated leg line
+- Long leg line
 - Narrow waist
-- Defined but not bulky musculature
-- Long dynamic posture
-- Lightweight silhouette
+- Defined but lightweight musculature
+- Elongated dynamic silhouette
+- Forward kinetic bias in stance
 
 Must never appear:
 
-- Fragile
 - Over-sexualized
 - Bodybuilder muscular
-- Cartoonishly exaggerated proportions
+- Fragile or delicate
+- Stylized fashion exaggeration
+- Cartoonishly distorted proportions
 
-She is speed — not fragility.
+She is acceleration — not fragility.
+
+</td>
+
+<td width="45%" align="center">
+
+<img src="../concept/characters/jett/jett_stance.png" width="360"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -58,54 +84,71 @@ She is speed — not fragility.
 
 - Red-orange base tone
 - Copper warmth under lighting
-- Clean readable color blocking
 - No striping patterns
+- Clean graphic color blocking
 
 Rendering rules:
 
 - Graphic clarity over realism
+- Avoid pastel drift
 - Avoid excessive gradient softness
-- Avoid pastel tones
+- Avoid hyper-textured fur
+
+Her color must feel hot.  
+Not cute.
 
 ---
 
 # Hair (NON-NEGOTIABLE)
 
 - Platinum blonde
-- Wild 80s energy
 - High volume
-- Dynamic shape
-- Always reads in silhouette
-
-Hair must move with motion.
+- Wild 80s stage energy
+- Strong silhouette readability
+- Motion-reactive shape
 
 Forbidden:
 
-- Perfectly styled fashion hair
-- Anime spikes
+- Perfect fashion styling
+- Anime spike exaggeration
 - Soft glam curls
-- Short cropped cuts
+- Short cuts
 
-Hair is a motion amplifier.
+Hair must feel like it moves even in still frames.
+
+It amplifies momentum.
 
 ---
 
 # Eyes (LOCKED)
 
 - Sharp feline structure
-- Predatory gaze
-- Neon-reactive under rim lighting
+- Predatory focus
 - Controlled intensity
+- Neon-reactive under rim lighting
 
 Forbidden:
 
-- Wide innocent eyes
-- Cute expression
-- Heavy glam sparkle
+- Innocent softness
+- Cute sparkle
+- Heavy glam gloss
+- Idol-style expressiveness
 
-Eyes must challenge.
+Her gaze must challenge.
+
+Not invite.
 
 ---
+
+<table>
+<tr>
+<td width="45%" align="center">
+
+<img src="../concept/characters/jett/jett_attack.png" width="360"/>
+
+</td>
+
+<td width="55%" valign="top">
 
 # Outfit (LOCKED)
 
@@ -113,16 +156,22 @@ Eyes must challenge.
 
 - Tight black leather
 - Clean silhouette
-- No bright colors
-- No rips
-- No fashion overstylization
+- No bright color inserts
+- No fashion rips
+- No glam overstylization
 
 ## Vest
 
-- Sleeveless leather
+- Sleeveless black leather
 - Subtle metal studs
 - Structured fit
 - Not oversized
+
+## Shirt
+
+- White base
+- Cat resistance symbol centered
+- Graphic clarity required
 
 ## Belt & Chains
 
@@ -130,37 +179,42 @@ Eyes must challenge.
 - Motion accent only
 - No excessive layering
 
+## Gloves
+
+- Fingerless
+- Dark tone
+- Functional
+
 ## Boots
 
 - High black leather boots
 - Strong vertical read
-- Not platform fashion boots
-
-## Gloves
-
-- Fingerless
-- Functional
-- Dark tone
+- Zipper detail
+- No platform exaggeration
 
 Forbidden:
 
-- Glitter textures
-- Excessive glam metal parody
-- Neon pink clothing
-- Cyberpunk over-detailing
+- Glitter
+- Neon pink drift
+- Cyberpunk over-detail
+- Glam parody metal
+
+</td>
+</tr>
+</table>
 
 ---
 
 # Makeup (CONTROLLED)
 
-- Dark stage-style eye emphasis
+- Dark stage eye emphasis
 - Subtle but readable
-- Must not look cosmetic-heavy
+- Must enhance intensity
 
-No lipstick emphasis.  
-No fashion focus.
+No lipstick focus.  
+No beauty-styling emphasis.
 
-Intensity, not beauty styling.
+Intensity, not cosmetics.
 
 ---
 
@@ -170,17 +224,21 @@ Jett must read instantly in silhouette.
 
 Primary anchors:
 
-- Wild hair volume
+- High-volume wild hair
 - Long leg line
+- Narrow waist
 - Forward lean
-- Chains accenting motion
+- Chain motion accents
+- Boot verticals
 
 Compared to team:
 
-- Leader = balanced
-- Bruiser = wide
-- Blazer = elongated and dynamic
-- Rogue = vertical and composed
+Leader = balanced  
+Bruiser = widest  
+Blazer = elongated  
+Rogue = vertical
+
+Jett must always read as the most dynamic.
 
 ---
 
@@ -188,19 +246,29 @@ Compared to team:
 
 Movement must feel:
 
-- Quick
 - Snapping
+- Fast
 - Elastic
+- Rhythmic
 - Relentless
 
 Avoid:
 
 - Floaty animation
-- Graceful ballet motion
-- Overly acrobatic flips
+- Ballet grace
+- Circus acrobatics
 - Comedic exaggeration
 
 Speed must feel dangerous.
+
+Every strike should feel like a guitar riff —  
+tight, sharp, escalating.
+
+---
+
+<p align="center">
+  <img src="../concept/characters/jett/jett_jumpkick.png" width="520"/>
+</p>
 
 ---
 
@@ -209,13 +277,18 @@ Speed must feel dangerous.
 Jett must communicate:
 
 - Heat
-- Challenge
 - Rhythm
-- Controlled aggression
+- Challenge
+- Escalation
+- Stage dominance
 
 She performs through combat.
 
 Not through posing.
+
+She does not entertain.
+
+She overwhelms.
 
 ---
 
@@ -226,9 +299,10 @@ Every depiction must include:
 - Red-orange fur
 - Platinum wild hair
 - Lean elongated build
-- Leather pants
-- Sleeveless vest
-- Chains as motion accent
+- Sleeveless leather vest
+- White shirt with resistance symbol
+- Black leather pants
+- Functional chains
 - Fingerless gloves
 - High black boots
 
@@ -245,17 +319,20 @@ Before approving artwork:
 - [ ] Fur color correct
 - [ ] Build lean and elongated
 - [ ] No glam parody drift
-- [ ] Motion feels fast
+- [ ] Motion reads fast
 - [ ] Silhouette distinct from Leader
 - [ ] Tone intense, not comedic
-- [ ] Chains minimal but present
+- [ ] Chains present but controlled
+- [ ] Boots correct
 - [ ] No over-sexualization
 
 ---
 
-Ignite.  
-Advance.  
-Overwhelm.
+<p align="center">
+  <img src="../concept/characters/jett/jett_cat_em_up.png" width="420"/>
+  <br/>
+  <sub><b>Ignite. Advance. Overwhelm.</b></sub>
+</p>
 
 ---
 

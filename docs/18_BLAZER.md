@@ -14,23 +14,26 @@
 
 **Name:** Nova Jett  
 **Role:** Blazer  
-**Archetype:** Speed / Rhythm / Metal Queen  
-**Motto:** _Breaking the Law. Unleash the Claw._
+**Archetype:** Speed / Pressure / Voice of Resistance  
+**Motto:** _Claws Out_
 
-Jett is momentum.
+Jett is ignition.
 
-She does not enter a fight.  
-She ignites it.
+She does not wait for momentum.  
+She creates it.
+
+She does not follow energy.  
+She amplifies it.
 
 If Leader controls rhythm  
-and Bruiser bends space —  
-Blazer accelerates everything.
+and Bruiser enforces weight —  
+Blazer turns sparks into fire.
 
 </td>
 
 <td width="40%" align="center">
 
-<img src="../concept/characters/jett/jett-0.png" width="280"/>
+<img src="../concept/characters/jett/jett_portrait.png" width="280"/>
 
 </td>
 </tr>
@@ -38,13 +41,28 @@ Blazer accelerates everything.
 
 ---
 
-## Canon Reference
+## Who She Is
 
-All immutable visual rules are defined here:
+Before the streets,  
+there was a stage.
 
-→ [Visual Lock — Blazer](18_BLAZER_VISUAL_LOCK.md)
+Jett is a rock vocalist of Meowami City.  
+Her voice filled underground clubs.  
+Her lyrics carried coded defiance.  
+Her name traveled faster than police sirens.
 
-This document defines **who Jett is**, not how she must be drawn.
+When corruption tightened its grip,  
+she did not retreat into music.
+
+She weaponized it.
+
+Her concerts became gathering points.  
+Her choruses became signals.  
+Her presence became ignition.
+
+She did not set out to lead a resistance.
+
+She became its pulse.
 
 ---
 
@@ -52,19 +70,22 @@ This document defines **who Jett is**, not how she must be drawn.
 
 Jett represents escalation.
 
-She pushes forward when others hesitate.  
-She amplifies intensity.  
-She turns tension into action.
-
-She is not reckless.  
-She is fearless.
+She transforms hesitation into action.  
+She transforms tension into motion.  
+She transforms motion into pressure.
 
 In the team dynamic:
 
 - Leader stabilizes
 - Bruiser anchors
-- Rogue punishes
+- Rogue corrects
 - Blazer advances
+
+She is not reckless.
+
+She is fearless.
+
+And fearlessness is contagious.
 
 ---
 
@@ -74,14 +95,17 @@ In the team dynamic:
 
 Design philosophy:
 
-- Momentum-based aggression
-- Flow through movement
-- Strike chains that build tempo
-- Controlled chaos
+- Forward momentum as identity
+- Tempo as a weapon
+- Relentless advance
+- Strike chains that build rhythm
+- Aggression through movement
 
-Jett grows stronger while advancing.
+Jett grows stronger while pushing forward.
 
-Stopping is not her nature.
+Stopping is not her instinct.
+
+Acceleration is.
 
 ---
 
@@ -90,13 +114,17 @@ Stopping is not her nature.
 Jett is expressive and unapologetic.
 
 - High energy
-- Direct
-- Charismatic
+- Direct and blunt
+- Charismatic without vanity
 - Fierce without hysteria
-- More outward than Leader
+- Emotionally loud — strategically aware
 
-She enjoys the spotlight —  
-but she earns it.
+She enjoys the spotlight.  
+But she earns it.
+
+Her presence is not performance.
+
+It is declaration.
 
 ---
 
@@ -106,31 +134,43 @@ Blazer feels explosive.
 
 She is:
 
-- Forward-leaning
 - Electrified
+- Forward-leaning
 - Kinetic
-- Intense
+- Uncontained
+- Loud without losing control
 
 Where Dan is gravity,  
 Jett is ignition.
+
+Where Knoxx waits,  
+Jett moves.
+
+She does not calm storms.
+
+She becomes them.
 
 ---
 
 ## Combat Identity
 
-Her combat style reflects speed and rhythm.
+Her combat style mirrors her stage presence.
 
 Characteristics:
 
 - High mobility
 - Fast strike chains
-- Aerial flow
-- Rhythm-driven pressure
-- Relentless forward momentum
+- Aerial pressure
+- Rhythm-driven offense
+- Momentum amplification
+- Relentless forward push
 
 Her strength is not raw power.
 
 It is tempo.
+
+Every fight feels like a guitar solo —  
+fast, aggressive, escalating.
 
 ---
 
@@ -140,11 +180,13 @@ Blazer represents the moment **during impact**.
 
 Flash.  
 Heat.  
+Noise.  
 Motion.
 
-She is not calm before the storm.
+She is not the calm before the storm.
 
-She is the storm.
+She is the storm with a microphone in one hand  
+and a clenched fist in the other.
 
 ---
 
@@ -153,9 +195,11 @@ She is the storm.
 Blazer must always read as:
 
 - 80s metal energy without parody
+- A rock frontwoman turned street catalyst
 - Fierce and intense, not comedic
 - Speed embodied
 - Controlled aggression, not chaos
+- The audible voice of resistance
 
 Detailed visual enforcement is handled exclusively by the Visual Lock document.
 

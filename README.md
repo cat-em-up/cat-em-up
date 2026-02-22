@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Coin In. Claws Out.</strong>
+  <strong>Claws Out.</strong>
 </p>
 
 ---
@@ -50,9 +50,9 @@ Just neon, impact and arcade intensity.
 ---
 
 <p align="center">
-  <img src="./concept/poster-0.png" width="700" />
+  <img src="./concept/catemup-team.png" width="700" />
 </p>
 
 ---
 
-Coin In. Claws Out. Break Bones.
+Claws Out.

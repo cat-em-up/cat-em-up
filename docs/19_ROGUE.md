@@ -1,101 +1,142 @@
 <a id="top"></a>
 
-# Rogue
+# Rogue — Knoxx
 
 ← [Back to Characters](15_CHARACTERS.md)
 
 ---
 
-<p align="center">
-  <img src="../concept/characters/knoxx/knoxx-0.png" width="400" />
-</p>
+## Core Identity
 
-## Role
+<table>
+<tr>
+<td width="60%" valign="top">
 
-Rogue
+**Name:** Knoxx  
+**Role:** Rogue  
+**Archetype:** Counter / Precision / Timing  
+**Motto:** _Do you feel lucky, rat?_
 
-## Working Name
+Knoxx is restraint.
 
-Knoxx
+He does not rush into fights.  
+He lets fights reveal themselves.
 
-## Motto
+Where Blazer ignites  
+and Bruiser presses —  
+Rogue waits.
 
-Do you feel lucky, rat?
+</td>
+
+<td width="40%" align="center">
+
+<img src="../concept/characters/knoxx/knoxx-0.png" width="280"/>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Canon Reference
+
+All immutable visual rules are defined here:
+
+→ [Visual Lock — Rogue](19_ROGUE_VISUAL_LOCK.md)
+
+This document defines **who Knoxx is**, not how he must be drawn.
+
+---
+
+## Narrative Role
+
+Knoxx represents experience.
+
+He is the oldest of the four.  
+He has seen escalation.  
+He has survived it.
+
+He does not dominate space.  
+He dominates timing.
+
+He allows opponents to overcommit —  
+and then he corrects them.
+
+Permanently.
+
+---
 
 ## Archetype
 
-Counter / Precision / Timing
+**Counter / Precision Fighter**
 
-## Physical Build
+Design philosophy:
 
-- Black anthropomorphic cat
-- Lean, hardened frame
-- Slightly taller posture than Leader
-- Oldest of the four
-- Economical, disciplined movement
-- Balanced center of gravity
-- Never wastes motion
+- Punish-first philosophy
+- Enhanced parry timing
+- Controlled spacing
+- Single decisive impact
 
-## Fur & Distinguishing Marks
+Knoxx does not trade blows.
 
-- Deep black fur with subtle cold-blue rim reflection
-- Torn left ear
-- Thin scar across left cheekbone
-- Sharp, piercing yellow eyes
-- Permanent half-squint of evaluation
+He ends exchanges.
 
-## Visual Identity
-
-- Long structured leather coat (knee-length)
-- Matte graphite or deep midnight tone
-- Heavy shoulder silhouette
-- Coat moves slowly — never theatrically
-- No hood (avoid ninja cliché)
-- No jewelry, chains, or decorative accessories
-- Clean vertical presence
-- Stillness before impact
-
-## Outfit
-
-- Long leather coat (primary silhouette anchor)
-- Dark fitted shirt underneath
-- Narrow combat trousers
-- Heavy boots
-- Simple leather gloves
-- Classic metal flip lighter (signature prop)
-
-## Expression & Presence
-
-- If sarcasm had a face — it's his
-- Slight downward head tilt when observing
-- Speaks quietly, almost lazily
-- Rarely initiates
-- Lets opponents expose themselves
-- Looks at enemies like a solved equation
+---
 
 ## Personality
 
-- Oldest in the team
-- Street veteran
-- Dry, surgical sarcasm
-- Analytical and patient
+Knoxx is dry, controlled, and analytical.
+
+- Surgical sarcasm
 - Rarely impressed
-- Allows others to rush first
-- Occasionally undercuts Leader with subtle remarks
+- Speaks quietly
+- Observes before acting
+- Occasionally undercuts Leader — never publicly
+
+He does not seek attention.
+
+He seeks efficiency.
+
+---
+
+## Presence
+
+Rogue feels still.
+
+He is:
+
+- Vertical
+- Balanced
+- Minimal in motion
+- Always measuring distance
+
+He looks at opponents  
+like they are already a solved equation.
+
+---
 
 ## Combat Identity
+
+Knoxx thrives on precision.
+
+Characteristics:
 
 - Enhanced parry window
 - Focus-based counter system
 - Damage spikes after perfect timing
-- Punish-first philosophy
 - Strong single-hit impact
-- Short slow-motion window on perfect parry
-- Calm idle stance before explosive response
+- Short slow-motion moment on perfect counter
+- Calm idle before explosive response
 
-### Focus Mechanic
+He does not build momentum.
 
-Focus builds while:
+He builds inevitability.
+
+---
+
+## Focus Mechanic
+
+Focus accumulates when:
 
 - Not attacking
 - Maintaining defensive stance
@@ -104,27 +145,38 @@ Focus builds while:
 Full Focus enables:
 
 - Guaranteed critical counter
-- Brief screen dim effect
-- Metallic impact audio cue
 - Stronger knockback
+- Brief cinematic slowdown
 
-## Signature Line Usage
+Focus rewards patience.
 
-"Do you feel lucky, rat?"
+---
 
-Delivered quietly — before or after a parry.  
-Never shouted. Always controlled.
+## Emotional Tone
 
-## Design Notes
+Rogue represents the moment **after a mistake**.
 
-- Avoid ninja clichés
-- Avoid over-stylization
-- Emphasize veteran energy
-- Coat must feel heavy, not flashy
-- Silhouette must read clearly in neon rim light
-- Strong contrast to Fast Cat’s explosive motion
-- Sarcasm over aggression
+Silence.  
+Correction.  
+Finality.
+
+He does not rage.
+
+He calculates.
+
+---
+
+## Design Intent (High-Level)
+
+Rogue must always read as:
+
+- Veteran presence
+- Controlled menace
+- Precision over aggression
 - Discipline over drama
+- 80s street anti-hero without cliché
+
+Detailed visual enforcement is handled exclusively by the Visual Lock document.
 
 ---
 

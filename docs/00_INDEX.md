@@ -3,7 +3,7 @@
 ## Project Overview
 
 - [Overview](10_OVERVIEW.md)
-- [Meowami City](11_MEOWAMI.md)
+- [World](11_WORLD.md)
 - [Characters](15_CHARACTERS.md)
 
 ---
@@ -41,3 +41,6 @@
 
 - [Workflow](70_WORKFLOW.md) - Development rules and attachment discipline
 - [Decisions Log](80_DECISIONS.md) - Architectural decision log
+- [Development](90_DEVELOPMENT.md) - Core development principles
+- [Task Tracking](91_TASK_TRACKING.md) - Task tracking system & principles
+- [Milestones](92_MILESTONES.md) - Vertical slice progression model

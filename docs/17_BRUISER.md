@@ -1,92 +1,162 @@
 <a id="top"></a>
 
-# Bruiser
+# Bruiser — Dan
 
 ← [Back to Characters](15_CHARACTERS.md)
 
 ---
 
-<p align="center">
-  <img src="../concept/characters/dan/dan-0.png" width="400" />
-</p>
+## Core Identity
 
-## Role
+<table>
+<tr>
+<td width="60%" valign="top">
 
-Bruiser
+**Name:** Dan  
+**Role:** Bruiser  
+**Archetype:** Heavy / Wrestler / Old School Fighter  
+**Motto:** _Be The Beast_
 
-## Working Name
+Dan is the team’s immovable force — the wall that chaos breaks against.
 
-Dan
+He is not the fastest.  
+Not the loudest.  
+He is the heaviest presence in the room.
+
+</td>
+
+<td width="40%" align="center">
+
+<img src="../concept/characters/dan/dan-0.png" width="280"/>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Canon Reference
+
+All immutable visual rules are defined here:
+
+→ [Visual Lock — Dan](17_BRUISER_VISUAL_LOCK.md)
+
+This document defines **who Dan is**, not how he must be drawn.
+
+---
+
+## Narrative Role
+
+Dan represents physical certainty.
+
+When fights get crowded,  
+when pressure builds,  
+when space collapses —
+
+Dan steps forward.
+
+He does not escalate conflict.  
+He ends resistance.
+
+He is the team’s anchor point in chaos.
+
+---
 
 ## Archetype
 
-Heavy / Wrestler / Old School Fighter
+**Heavy / Close-Range Dominance**
 
-## Motto
+Design philosophy:
 
-Be The Beast
+- Control space through presence
+- Break rhythm with weight
+- Win exchanges at close range
+- Force opponents into mistakes
 
-## Physical Build
+Dan does not chase advantage.
 
-- Anthropomorphic Maine Coon
-- Broad shoulders
-- Thick neck
-- Massive upper frame
-- Dense, compact musculature (not bodybuilder, not bulky — compact power)
-- Heavy center of gravity
-- Upper body significantly wider than Leader
+He imposes it.
 
-## Visual Identity
-
-- Light gray fur
-- Thick black old-school mustache (short, straight, horizontal)
-- Cold gray feline eyes (sharp, narrow pupils)
-- Wide grounded fighter stance
-- Elbows tight to body, guard up
-- Minimal movement
-
-## Outfit
-
-- Black sleeveless leather vest
-- White tank top
-- Dark worn jeans
-- Black wrist wraps
-- Simple belt, no decorative elements
-
-## Expression & Presence
-
-- Calm, unreadable face
-- No theatrical aggression
-- Speaks rarely
-- Breathes slow and controlled
-- Feels immovable
+---
 
 ## Personality
 
+Dan speaks rarely.
+
 - No theatrics
-- No bragging
-- Experienced and grounded
-- Commands space silently
-- Lets impact speak instead of words
+- No sarcasm
+- No visible ego
+- No emotional volatility
+
+He is experienced.  
+Grounded.  
+Unshakable.
+
+Others create motion.  
+Dan creates consequence.
+
+---
+
+## Presence
+
+Dan carries silent authority.
+
+He feels:
+
+- Immovable
+- Controlled
+- Physically dominant
+- Economical in motion
+
+He does not perform strength.
+
+He embodies it.
+
+---
 
 ## Combat Identity
+
+Dan’s combat style is built on pressure and weight.
+
+Characteristics:
 
 - Clinch control
 - Throws and takedowns
 - Crushing knees
 - Short-range dominance
 - Body pressure and positional control
-- Slow but extremely impactful animations
-- Every strike feels like weight, not speed
+- Slow but devastating impact animations
 
-## Design Notes
+Every strike should feel like gravity.
 
-- Upper-body silhouette priority
-- Emphasis on trapezius and neck mass
-- Mustache must remain straight and graphic (no curls)
-- Movements must feel economical
-- Idle stance: classic fighter guard, weight slightly forward
-- Old-school combat sports presence without explicit references
+Not speed.
+
+---
+
+## Emotional Tone
+
+Dan represents the moment **after impact**.
+
+The silence when air leaves the room.
+
+The realization that the fight just changed.
+
+He does not rush.
+
+He advances.
+
+---
+
+## Design Intent (High-Level)
+
+Dan should always read as:
+
+- Old-school street fighter presence
+- Controlled brutality
+- Physical authority
+- Minimal expression, maximum consequence
+
+Detailed visual enforcement is handled exclusively by the Visual Lock document.
 
 ---
 

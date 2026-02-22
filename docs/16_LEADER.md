@@ -1,102 +1,167 @@
 <a id="top"></a>
 
-# Leader
+# Timmy — The Leader
 
 ← [Back to Characters](15_CHARACTERS.md)
 
 ---
 
-<p align="center">
-  <img src="../concept/characters/timmy/timmy-0.png" width="400" />
-</p>
+## Core Identity
 
-## Role
+<table>
+<tr>
+<td width="60%" valign="top">
 
-Leader
+**Name:** Timmy  
+**Role:** Team Leader  
+**Archetype:** Balanced / Control  
+**Motto:** _Live to Claw — Claw to Live_
 
-## Working Name
+Timmy is the stabilizing force of the team — the calm center around which chaos organizes itself.
 
-Timmy
+He is not the strongest.  
+Not the fastest.  
+He is the most reliable.
+
+</td>
+
+<td width="40%" align="center">
+
+<img src="../concept/characters/timmy/timmy_riding.png" width="280"/>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Canon Reference
+
+All immutable visual rules are defined here:
+
+→ [Visual Lock — Timmy](16_LEADER_VISUAL_LOCK.md)
+
+This document defines **who Timmy is**, not how he must be drawn.
+
+---
+
+## Narrative Role
+
+Timmy functions as the natural leader of the group.
+
+He does not dominate through aggression or volume.  
+Authority comes from composure, clarity, and control.
+
+Others escalate situations.  
+Timmy ends them.
+
+He represents balance between instinct and discipline.
+
+---
 
 ## Archetype
 
-Balanced / Control
+**Balanced / Control Fighter**
 
-## Motto
+Design philosophy:
 
-Live to Claw — Claw to Live
+- Tactical spacing
+- Efficient movement
+- Clean execution
+- Situational awareness
+- Precision over brutality
 
-## Physical Build
+Timmy controls the rhythm of combat rather than overpowering opponents.
 
-- Athletic, lean frame
-- Medium height
-- Clearly smaller than Bruiser
-- Agile but grounded posture
-
-## Fur & Eyes (Locked)
-
-- Gray tabby pattern
-- Dark near-black stripes
-- White chest
-- White front paws
-- White vertical facial stripe
-- Subtle dark eye-mask markings
-- Deep green eyes
-
-## Visual Identity
-
-- Anthropomorphic street cat
-- Clean readable silhouette
-- Slight head tilt
-- Focused side gaze
-- Crossed arms (default poster stance)
-- Strong neon rim-light readability
-
-## Outfit
-
-- Black biker leather jacket (full sleeves)
-- Full black leather gloves
-- Worn jeans
-- Large metal belt buckle (motorcycle emblem)
-- Toothpick in mouth
-
-## Expression & Presence
-
-- Closed-mouth confident smirk
-- Calm, controlled green eyes
-- Never rushed
-- Poster-hero energy
-- “Flash Before Impact” micro-expression
-
-## Symbolism
-
-- Motorcycle association (chopper / cruiser aesthetic)
-- Subtle stitched motto inside jacket:
-  "Live to Claw — Claw to Live"
-- Visual contrast: white chest fur under black leather
+---
 
 ## Personality
 
-- Natural center of gravity
-- Speaks little, but clearly
-- Light irony, never clownish
-- Moves with confidence
+- Speaks little, but with intent
+- Calm under pressure
+- Light irony, never comedic
+- Observant before acting
+- Confident without arrogance
+- Emotionally grounded
+
+He never rushes.
+
+When Timmy moves, it matters.
+
+---
+
+## Presence
+
+Timmy carries quiet authority.
+
+He feels:
+
+- Controlled
+- Reliable
+- Focused
+- Dangerous without theatrics
+
+The team naturally aligns around him.
+
+He stabilizes chaos.
+
+---
+
+## Symbolism
+
+Timmy embodies classic street-hero mythology:
+
+- Independence
+- Personal code of honor
+- Rider mentality
+- Loyalty through action, not words
+
+Motorcycle symbolism reinforces freedom, movement, and controlled danger.
+
+---
 
 ## Combat Identity
 
+Timmy’s combat style reflects leadership through precision.
+
+Characteristics:
+
 - Clean, efficient strikes
+- Smooth combo transitions
 - Balanced speed and power
-- Smooth combo flow
-- Tactical spacing control
-- Precise claw-based finishers
+- Tactical positioning
+- Controlled aggression
+- Precise claw finishers
 
-## Design Notes
+Every action appears intentional.
 
-- Strong readable silhouette
-- Emotional storytelling through posture
-- Avoid exaggerated parody
-- Classic 80s action hero framing
-- Neon magenta / cyan rim lighting compatibility
+No wasted motion.
+
+---
+
+## Emotional Tone
+
+Timmy represents the moment **before impact**.
+
+Calm.
+Measured.
+Certain.
+
+He does not chase conflict —  
+he resolves it.
+
+---
+
+## Design Intent (High-Level)
+
+Timmy should always read as:
+
+- A grounded 80s arcade street hero
+- A biker, not a soldier
+- A leader, not a brute
+- Serious without grimdark exaggeration
+
+Detailed visual enforcement is handled exclusively by the Visual Lock document.
 
 ---
 

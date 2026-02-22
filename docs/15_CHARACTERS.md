@@ -22,10 +22,10 @@ The roster is intentionally compact and contrast-driven.
 
 ## Team Overview
 
-- [**Leader**](16_LEADER.md)
-- [**Bruiser**](17_BRUISER.md)
-- [**Fast Cat**](18_FAST_CAT.md)
-- [**Rogue**](19_ROGUE.md)
+- [**Leader — Control / Balance**](16_LEADER.md)
+- [**Bruiser — Heavy / Grapple**](17_BRUISER.md)
+- [**Blazer — Speed / Pressure**](18_BLAZER.md)
+- [**Rogue — Counter / Precision**](19_ROGUE.md)
 
 ---
 

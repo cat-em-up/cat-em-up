@@ -1,7 +1,7 @@
 # Cat ’Em Up
 
 <p align="center">
-  <img src="./concept/logo.png" width="400" />
+  <img src="./logo/catemup_logo_square_transparent.png" width="400" />
 </p>
 
 <p align="center">

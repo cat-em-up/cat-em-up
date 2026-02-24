@@ -31,7 +31,7 @@ Rogue waits.
 
 <td width="40%" align="center">
 
-<img src="../concept/characters/knoxx/knoxx-0.png" width="280"/>
+<img src="../concept/characters/knoxx/knoxx_portrait.png" width="280"/>
 
 </td>
 </tr>

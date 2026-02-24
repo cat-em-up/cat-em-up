@@ -1,14 +1,6 @@
 # Cat ’Em Up
 
-<p align="center">
-  <img src="./logo/catemup_logo_square_transparent.png" width="400" />
-</p>
-
-<p align="center">
-  <strong>Claws Out.</strong>
-</p>
-
----
+![Cat ’Em Up](./concept/poster-0.png)
 
 ## About
 

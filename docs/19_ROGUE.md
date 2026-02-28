@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Rogue — Knoxx
+# THE ROGUE — Knoxx
 
 ← [Back to Characters](15_CHARACTERS.md)
 
@@ -49,7 +49,7 @@ This document defines **who Knoxx is**, not how he must be drawn.
 
 ---
 
-## Who He Is
+## Who They Are
 
 Knoxx is a licensed private detective in Meowami City.
 
@@ -63,6 +63,11 @@ From neon clubs to dead-end alleys.
 He does not trust institutions.
 
 He trusts patterns.
+
+He does not chase noise.
+
+He studies it —  
+and waits for the mistake.
 
 ---
 
@@ -195,7 +200,7 @@ Rogue must always read as:
 - 80s street anti-hero without cliché
 - Noir private detective energy
 
-Detailed visual enforcement is handled exclusively by the Visual Lock document.
+Detailed visual enforcement is handled exclusively by the [Visual Lock document](19_ROGUE_VISUAL_LOCK.md).
 
 ---
 

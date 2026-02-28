@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Timmy — The Leader
+# THE LEADER — Timmy
 
 ← [Back to Characters](15_CHARACTERS.md)
 
@@ -144,8 +144,8 @@ No wasted motion.
 
 Timmy represents the moment **before impact**.
 
-Calm.
-Measured.
+Calm.  
+Measured.  
 Certain.
 
 He does not chase conflict —  
@@ -162,7 +162,7 @@ Timmy should always read as:
 - A leader, not a brute
 - Serious without grimdark exaggeration
 
-Detailed visual enforcement is handled exclusively by the Visual Lock document.
+Detailed visual enforcement is handled exclusively by the [Visual Lock document](16_LEADER_VISUAL_LOCK.md).
 
 ---
 

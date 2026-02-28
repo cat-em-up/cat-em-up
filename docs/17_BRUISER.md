@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Bruiser — Dan
+# THE BRUISER — Dan
 
 ← [Back to Characters](15_CHARACTERS.md)
 
@@ -43,6 +43,30 @@ All immutable visual rules are defined here:
 → [Visual Lock — Dan](17_BRUISER_VISUAL_LOCK.md)
 
 This document defines **who Dan is**, not how he must be drawn.
+
+---
+
+## Who They Are
+
+Before the streets,  
+there was discipline.
+
+Dan is a former national wrestling champion.  
+He knows pressure.  
+He knows leverage.  
+He knows how to end a struggle without wasted motion.
+
+He did not enter the streets seeking conflict.
+
+He entered them when control collapsed.
+
+In a city where chaos spreads block by block,  
+Dan becomes the wall that does not move.
+
+He does not posture.  
+He does not threaten.
+
+He enforces reality.
 
 ---
 
@@ -157,7 +181,7 @@ Dan should always read as:
 - Physical authority
 - Minimal expression, maximum consequence
 
-Detailed visual enforcement is handled exclusively by the Visual Lock document.
+Detailed visual enforcement is handled exclusively by the [Visual Lock document](17_BRUISER_VISUAL_LOCK.md).
 
 ---
 

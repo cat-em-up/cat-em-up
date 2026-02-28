@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Blazer — Jett
+# THE BLAZER — Jett
 
 ← [Back to Characters](15_CHARACTERS.md)
 
@@ -42,7 +42,17 @@ Blazer turns sparks into fire.
 
 ---
 
-## Who She Is
+## Canon Reference
+
+All immutable visual rules are defined here:
+
+→ [Visual Lock — Jett](18_BLAZER_VISUAL_LOCK.md)
+
+This document defines **who Jett is**, not how she must be drawn.
+
+---
+
+## Who They Are
 
 Before the streets,  
 there was a stage.
@@ -202,7 +212,7 @@ Blazer must always read as:
 - Controlled aggression, not chaos
 - The audible voice of resistance
 
-Detailed visual enforcement is handled exclusively by the Visual Lock document.
+Detailed visual enforcement is handled exclusively by the [Visual Lock document](18_BLAZER_VISUAL_LOCK.md).
 
 ---
 

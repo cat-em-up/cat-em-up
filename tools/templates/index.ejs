@@ -84,11 +84,26 @@
         </div>
       </section>
 
-      <footer class="footer">
-        <p>
-          <%= site.title %> — <%= site.status %>
-        </p>
-      </footer>
+      <% if (site.links && site.links.length> 0) { %>
+        <section class="links-section">
+          <h2>Links</h2>
+          <div class="links-list">
+            <% site.links.forEach((link)=> { %>
+              <a href="<%= link.url %>" target="_blank" rel="noopener noreferrer" class="link-card">
+                <span>
+                  <%= link.title %>
+                </span>
+              </a>
+              <% }) %>
+          </div>
+        </section>
+        <% } %>
+
+          <footer class="footer">
+            <p>
+              <%= site.title %> — <%= site.status %>
+            </p>
+          </footer>
     </div>
 
     <div id="lightbox" class="lightbox">

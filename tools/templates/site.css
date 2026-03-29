@@ -204,6 +204,32 @@ section {
   cursor: zoom-out;
 }
 
+.links-section {
+  padding: 28px 0;
+  margin-bottom: 20px;
+}
+
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.link-card {
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.link-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--accent-2);
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .gallery-grid {

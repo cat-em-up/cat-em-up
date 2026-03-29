@@ -3,7 +3,14 @@
     "title": "Cat 'Em Up",
     "tagline": "Cat ’Em Up is a high-energy retro 80s neon beat ’em up. Inspired by arcade cabinets, leather jackets and raw disco-rock energy, the game delivers pure side-scrolling street chaos with a feline hero at the center of the fight.",
     "status": "In development",
-    "ogImage": "https://catemup.com/assets/concept/poster-0.jpg"
+    "ogImage": "https://catemup.com/assets/concept/poster-0.jpg",
+    "links": [
+      {
+        "title": "Repository",
+        "url": "https://github.com/cat-em-up/cat-em-up"
+      },
+      { "title": "Author", "url": "https://zarant77.github.io/" }
+    ]
   },
   "sections": {
     "overview": "docs/10_OVERVIEW.md",

@@ -7,7 +7,7 @@
     "build:site:content": "node tools/build-site-content.mjs",
     "build:site:html": "node tools/render-site.mjs",
     "build": "npm run clean && npm run build:site:content && npm run build:site:html",
-    "start": "node tools/server.mjs"
+    "start": "npm run build && node tools/server.mjs"
   },
   "dependencies": {
     "ejs": "^5.0.1",

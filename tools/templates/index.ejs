@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="<%= site.title %>" />
+  <meta property="og:description" content="<%= site.tagline %>" />
+  <meta property="og:image" content="<%= site.ogImage %>" />
+  <meta property="og:type" content="website" />
+  <meta name="description" content="<%= site.tagline %>" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/site.css" />
+  <title>
+    <%= site.title %>
+  </title>
+</head>
+
+<body>
+  <% const characterOrder=["timmy", "dan" , "jett" , "knoxx" ]; const orderedCharacters=characterOrder .map((id)=>
+    characters.find((character) => character.id === id))
+    .filter(Boolean);
+    %>
+
+    <div class="container">
+      <header class="hero">
+        <div class="hero-grid">
+          <div>
+            <div class="badge">
+              <%= site.status %>
+            </div>
+            <h1>
+              <%= site.title %>
+            </h1>
+            <p class="tagline">
+              <%= site.tagline %>
+            </p>
+          </div>
+
+          <% if (gallery.length> 0) { %>
+            <div class="hero-card">
+              <img src="<%= gallery[0] %>" alt="<%= site.title %>" />
+            </div>
+            <% } %>
+        </div>
+      </header>
+
+      <section class="section-card prose">
+        <%- sections.overview %>
+      </section>
+
+      <section class="section-card prose">
+        <%- sections.world %>
+      </section>
+
+      <section class="characters-list">
+        <h2>Characters</h2>
+
+        <div>
+          <% orderedCharacters.forEach((character)=> { %>
+            <article class="character-card">
+              <div class="prose"><%- character.bioHtml %></div>
+
+              <% if (character.images.length> 0) { %>
+                <div class="thumbs">
+                  <% character.images.forEach((image)=> { %>
+                    <img src="<%= image %>" alt="<%= character.name %> concept art" />
+                    <% }) %>
+                </div>
+                <% } %>
+            </article>
+            <% }) %>
+        </div>
+      </section>
+
+      <section>
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <% gallery.forEach((image)=> { %>
+            <div class="gallery-card">
+              <img src="<%= image %>" alt="<%= site.title %> gallery image" />
+            </div>
+            <% }) %>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          <%= site.title %> — <%= site.status %>
+        </p>
+      </footer>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+      <img id="lightbox-img" src="" alt="" />
+    </div>
+
+    <script src="/site.js"></script>
+</body>
+
+</html>

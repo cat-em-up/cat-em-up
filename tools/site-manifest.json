@@ -1,0 +1,67 @@
+{
+  "site": {
+    "title": "Cat 'Em Up",
+    "tagline": "Cat ’Em Up is a high-energy retro 80s neon beat ’em up. Inspired by arcade cabinets, leather jackets and raw disco-rock energy, the game delivers pure side-scrolling street chaos with a feline hero at the center of the fight.",
+    "status": "In development",
+    "ogImage": "https://catemup.com/assets/concept/poster-0.jpg"
+  },
+  "sections": {
+    "overview": "docs/10_OVERVIEW.md",
+    "world": "docs/11_WORLD.md"
+  },
+  "characters": [
+    {
+      "id": "timmy",
+      "name": "Timmy",
+      "role": "Leader",
+      "bio": "docs/16_LEADER.md",
+      "portrait": "concept/characters/timmy/timmy_portrait.png",
+      "images": [
+        "concept/characters/timmy/timmy_stance.png",
+        "concept/characters/timmy/timmy_jumpkick.png",
+        "concept/characters/timmy/timmy_jab.png"
+      ]
+    },
+    {
+      "id": "dan",
+      "name": "Dan",
+      "role": "Bruiser",
+      "bio": "docs/17_BRUISER.md",
+      "portrait": "concept/characters/dan/dan_portrait.png",
+      "images": [
+        "concept/characters/dan/dan_stance.png",
+        "concept/characters/dan/dan_art_0.png",
+        "concept/characters/dan/dan_art_1.png"
+      ]
+    },
+    {
+      "id": "jett",
+      "name": "Jett",
+      "role": "Blazer",
+      "bio": "docs/18_BLAZER.md",
+      "portrait": "concept/characters/jett/jett_portrait.png",
+      "images": [
+        "concept/characters/jett/jett_stance.png",
+        "concept/characters/jett/jett_attack.png",
+        "concept/characters/jett/jett_jumpkick.png"
+      ]
+    },
+    {
+      "id": "knoxx",
+      "name": "Knoxx",
+      "role": "Rogue",
+      "bio": "docs/19_ROGUE.md",
+      "portrait": "concept/characters/knoxx/knoxx_portrait.png",
+      "images": [
+        "concept/characters/knoxx/knoxx_stance.png",
+        "concept/characters/knoxx/knoxx_attack.png",
+        "concept/characters/knoxx/knoxx_at_work.png"
+      ]
+    }
+  ],
+  "gallery": [
+    "concept/poster-0.png",
+    "concept/meowami-0.png",
+    "concept/catemup-team.png"
+  ]
+}
